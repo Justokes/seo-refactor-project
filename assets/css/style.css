@@ -8,6 +8,9 @@ body {
     background-color: #d9dcd6;
 }
 
+
+/* changed div to header selector  */
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +27,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header nav {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +35,14 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
+
+/*removed body selector because there is only one nav*/
+
+nav ul {
     list-style-type: none;
 }
 
-header nav ul li {
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -46,10 +52,14 @@ a {
     text-decoration: none;
 }
 
-a:hover{
+
+/* created hover state */
+
+a:hover {
     color: #d9dcd6;
     text-decoration: underline dashed;
 }
+
 p {
     font-size: 16px;
 }
@@ -77,8 +87,10 @@ main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-    
 }
+
+
+/* changed div to aside */
 
 aside {
     margin-right: 20px;
@@ -96,7 +108,6 @@ aside {
     color: #ffffff;
 }
 
-
 aside h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -108,8 +119,7 @@ aside img {
     max-width: 150px;
 }
 
-
-main section{
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -125,10 +135,10 @@ main img {
 main h2 {
     margin-bottom: 20px;
     font-size: 36px;
-    
-    
 }
 
+
+/* created footer instead of div */
 
 footer {
     padding: 30px;
