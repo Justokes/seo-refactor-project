@@ -7,4 +7,4 @@ HoriSEOn is a website that helps businesses optimize thier own website. Horiseon
 Search Engine Optimization for your business
 
 ## Visuals
-![Screenshots](HoriSEOn-screenshot.png)
+![Screenshots](./assets/HoriSEOn-screenshot.png)
